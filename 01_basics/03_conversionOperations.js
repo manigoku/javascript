@@ -21,3 +21,7 @@ let booleanIsLoogedIn = Boolean(isLoggedIn);
 let sn = 25
 let usn = String(sn)
 console.log(typeof usn);
+// +,_,*,/,%
+//+=,-=,<=,>=,
+//++,-- incriment and decriment
+//===,!==,
