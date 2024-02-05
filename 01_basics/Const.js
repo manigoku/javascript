@@ -5,7 +5,7 @@
  document.getElementById("mysub").onclick = function(){
     radius = document.getElementById("mytext").value;
     radius = Number(radius);
-    circumference = 2 * PI * radius;
+    circumference = 2 * PI * radius; 
     document.getElementById("myH2").textContent = circumference;
  }
 
