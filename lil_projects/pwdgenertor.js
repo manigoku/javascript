@@ -11,10 +11,10 @@ const SymbolsChars = "!@#$%^&*_+";
 let allowedChars = "";
 let password = "";
 
-allowedChars += includeLowerCase ? LowerCaseChars : "";
-allowedChars +=  includeUpperCase? UpperCaseChars : "";
-allowedChars += includeNumbers ? NumbersChars : "";
-allowedChars += includeSymbols ? SymbolsChars : "";
+allowedChars += includeLowerCase ? LowerCaseChars : " ";
+allowedChars +=  includeUpperCase? UpperCaseChars : " ";
+allowedChars += includeNumbers ? NumbersChars : " ";
+allowedChars += includeSymbols ? SymbolsChars : " ";
 
 if(pwdLength <= 0 ){
     console.log(`password must be morethan 1 character`);
