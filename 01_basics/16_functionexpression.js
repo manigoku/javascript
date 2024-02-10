@@ -12,4 +12,4 @@ node 01_basics/16_functionexpression.js */
  const squares = numbers.map(function(element){
    return Math.pow(element,2)
  });
- console.log(squares);
+ console.log(total);
