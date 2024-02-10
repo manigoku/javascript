@@ -22,7 +22,12 @@ class user {
         this.username=username;
         user.userCount++;
     }
-    
+     sayhelllo(){
+        console.log(`hello my name is ${this.username}`);
+    }
+    static getuserCount(){
+        console.log(`the number of users online ${this.userCount}`)
+    }
 }
 const user1 = new user("mani")
 const user2 = new user("speedy")
@@ -30,3 +35,5 @@ const user2 = new user("speedy")
 console.log(user1.username);
 console.log(user2.username);
 console.log(user.userCount);
+user1.sayhelllo();
+user.getuserCount();
