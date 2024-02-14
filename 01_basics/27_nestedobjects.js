@@ -9,4 +9,5 @@ const person = {
         pincode:521110
     }
 }
+
 console.log(person.address.pincode);
