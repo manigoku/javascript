@@ -16,6 +16,7 @@ class Rectangle{
             console.error(`w must be a positive number`);
         }
     }
+    
     set h(newheight){
         if(newheight>0){
       this._newheight=newheight;
