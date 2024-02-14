@@ -41,6 +41,7 @@ const person2={
     lastname:"speedys",
     age:26,
 
+    
 };
 const{firstname,lastname,age,job="unemployed"}=person2
 console.log(job);
