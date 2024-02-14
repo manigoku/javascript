@@ -1,5 +1,8 @@
 /* // getter = a special method that makes a property readable
 // setter = a special mehod makes a property more writable
+
+getters and setters allows you to set the object properties via methods
+
 class Rectangle{
     constructor(w,h){
       this.w = w;
